@@ -1,0 +1,18 @@
+.menu{
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 10px #00000010;
+  justify-content: space-around;
+}
+.menu > div{
+  display: flex;
+}
+.link{
+  display: block;
+  padding: 20px 15px;
+}
+.link:hover{
+  background-color: rgb(38, 111, 180);
+  color: white;
+}
