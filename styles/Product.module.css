@@ -16,3 +16,39 @@
   font-size: 28px;
   margin: 5px 0px;
 }
+
+.page{
+  background-color: #fff;
+  padding: 40px;
+  margin-top: 10px;
+  display: flex;
+  border-radius: 15px;
+  box-shadow: 0px 30px 20px -20px #00000010;
+  transition: scale(0);;
+  animation: scale 0.3s ease forwards;
+}
+.img{
+  min-width: 400px;
+  max-width: 400px;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.title{
+  margin: 0;
+}
+.price {
+  font-size: 32px;
+  margin: 5px 0;
+}
+
+@keyframes scale {
+  from {
+    transform: scale(0);
+  }  
+  to {
+    transform: scale(1);
+  }
+}
